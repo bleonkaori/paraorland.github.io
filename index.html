@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Orlando</title>
+    <title>Animo Coshino</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,20 +27,66 @@
             color: #333;
             line-height: 1.6;
         }
-        .signature {
+        .flowers {
             margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .flower {
+            width: 100px;
+            height: 150px;
+            background-color: #f7e0e7;
+            border-radius: 50%;
+            margin: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        .stem {
+            width: 10px;
+            height: 80px;
+            background-color: #7f7;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+        .stem:before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            background-color: #555;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Para Orlando</h1>
-        <p>Querido Orlando,</p>
-        <p>Quiero dedicarte estas palabras para expresarte todo mi amor y gratitud. Eres la luz de mi vida, mi apoyo incondicional y mi compañero en todas las aventuras.</p>
-        <p>Cada momento a tu lado es un regalo, y no puedo imaginar mi vida sin ti. Eres mi roca en los momentos difíciles y mi alegría en los momentos felices.</p>
-        <p>Gracias por tu amor, tu cariño y tu comprensión. Eres el mejor novio que podría desear, y estoy infinitamente agradecida por tenerte a mi lado.</p>
-        <p>Con todo mi amor,</p>
-        <p>[Tu nombre]</p>
+        <h1>Hola coshino</h1>
+        <p>Hice esta página para ti. Para darte ánimos de que estás enfermo, quiero darte unas flores a través de la distancia.</p>
+        <p>Con mucho cariño,</p>
+        <p>Bianca</p>
+
+        <div class="flowers">
+            <div class="flower">
+                <div class="stem"></div>
+            </div>
+            <div class="flower">
+                <div class="stem"></div>
+            </div>
+            <div class="flower">
+                <div class="stem"></div>
+            </div>
+            <div class="flower">
+                <div class="stem"></div>
+            </div>
+            <div class="flower">
+                <div class="stem"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
